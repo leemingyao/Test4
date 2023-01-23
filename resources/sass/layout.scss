@@ -1,5 +1,4 @@
 $header-height:65px;
-$header-font-color:$dark;
 $footer-height:360px;
 $color: rgb(64,64,64);
 $gap: 80px;
@@ -46,7 +45,7 @@ $sectiongap:60px;
 // =========== Header ================
 #header {
     position: fixed;
-    background:$primary;
+    background-color: #fff;
     .header-inner {
         @extend .container;
         display:flex;
@@ -63,11 +62,20 @@ $sectiongap:60px;
         }
     }
 
-    .header-logo{   
-        width: 200px;
+    .logo-container{   
+        width: 40%;
+        height: 100%;
         position: relative;
-        padding-top: 20px;
-        a { display:block; }
+        display: flex;
+        text-align: center;
+        text-decoration: none;
+        p{
+            color: $dark;
+            text-decoration: none;
+            font-style: italic;
+            display: flex;
+            align-items: center;
+        }
     }
     .header-nav{
         margin-left: auto;
@@ -227,7 +235,6 @@ $sectiongap:60px;
     }
     .banner-item {
         height:calc(100vh - 65px);
-        margin:1px; // offset
         position:relative;
         .banner-item-inner{
             @extend .container;

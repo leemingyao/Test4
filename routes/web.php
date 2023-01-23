@@ -15,12 +15,8 @@ require_once '../app/Http/Controllers/ViewController.php';
 */
     $config = include_once '../config.php';
 
-    Route::get((rtrim($config["app_url"]).'/'), 'ViewController@passData');
-
-    Route::get(rtrim($config["app_url"]).'/aboutus', function () {
-        return view('aboutus');
-    });
-
-    Route::get(rtrim($config["app_url"]).'/services', function () {
-        return view('services');
-    });
+    Route::get((rtrim($config["app_url"]).'/'), 'ViewController@viewHome');
+    Route::get((rtrim($config["app_url"]).'/aboutus'), 'ViewController@viewAbout');
+    Route::get((rtrim($config["app_url"]).'/services'), 'ViewController@viewServices');
+    Route::get((rtrim($config["app_url"]).'/news'), 'ViewController@viewNews');
+    Route::get((rtrim($config["app_url"]).'/contactus'), 'ViewController@viewContactUs');

@@ -1,29 +1,30 @@
 @extends('layout')
 @section('meta')
 
-<title>Pest Control Specialist In Johor Bahru</title>
+
 <meta property="og:description" content="We are pest control solution provider serving in Johor area - Sepcialized in Termites Elimination. Free Inspection + 100% Money Back Guarantee" />
 <meta name='description' content='We are pest control solution provider serving in Johor area - Sepcialized in Termites Elimination. Free Inspection + 100% Money Back Guarantee' />
 <meta name='keywords' content='propestsolution, propest, pest control, termite control' />
 @endsection
 @section('content')
+
 <div id="fullpage">
     <div id="banner" class="block block-banner banner-main section section-fullheight section-banner">
         <div class="banner-list">
-            <div class="banner-item banner-1" style="background: linear-gradient(rgba(93,81,47,0.6),rgba(0,0,0,0.6)),url(../img/home_banner-1.png);background-repeat: no-repeat;
+            <div class="banner-item banner-1 w-100 ml-0" style="background: linear-gradient(rgba(93,81,47,0.6),rgba(0,0,0,0.6)),url(../img/banner.jpg);background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;">
                 <div class="banner-item-inner">
                     <div class="banner-content mb-5">
                         <div class="m-5">
-                            <h2 class="kf1 m-0"><span class="bg-dark text-white">PEST CONTROL SPECIALIST</span></h2>
+                            <h2 class="kf1 m-0"><span class="bg-light text-primary">LOGISTIC SPECIALIST <i class="fa-solid fa-thumbs-up text-dark"></i> </span></h2>
                             <h1 class="kf2">WITH OVER</h1>
-                            <h1 class="kf3"><mark>10 YEARS</mark> OF</h1>
+                            <h1 class="kf3"><mark class="text-primary bg-light">10 YEARS </mark>OF</h1>
                             <h1 class="kf4">EXPERIENCE</h1>
-                            <div class="kf5"><a href="tel:{!!$config["contact"]["fax"]!!}" class="btn btn-secondary font-weight-bold"><i class="fas fa-phone-alt pr-1"></i> Call Us Now: {!!$config["contact"]["fax"]!!}</a></div>
+                            <div class="kf5"><a href="tel:{!!$config["contact"]["office"]!!}" class="btn btn-secondary font-weight-bold"><i class="fa-solid fa-phone"></i> Call Us Now: {!!$config["contact"]["office"]!!}</a></div>
                         </div>
                     </div>
-                    <a href="/contact-us">
+                    <a href="/contactus">
                         <div class="banner-bottom d-flex justify-content-around w-100">
                             <div class="d-flex align-items-center justify-content-center">
                                 <h3>FREE INSPECTION</h3>

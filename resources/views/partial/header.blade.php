@@ -8,22 +8,21 @@
                 <span></span>
             </div>
         </div>
-       <div class="header-logo mx-md-0 mx-auto">
-            <a href='/'>
-                <img src='localdev.test4.com/resources/img/logo.png' class="img-fluid" alt="Star Pacific Lines" />
-            </a>
-       </div>
+        <a href='/' class="logo-container py-1">
+            <img src="{!! rtrim($config["app_url"], '/')!!}/img/logo.png" class="img-fluid pr-2" alt="Star Pacific Lines" />
+            <p class="mb-1">Star Pacific Lines Sdn. Bhd.</p>
+        </a>
         <div class="header-nav">
             <ul class="nav-menu nav-one">
-                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/home" data-page="home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/about-us" data-page="about-us">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/our-services" data-page="our-services">Our Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/" data-page="home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/aboutus" data-page="aboutus">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/services" data-page="our-services">Our Services</a></li>
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/news" data-page="news">News & Gallery</a></li>
-                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/contact-us" data-page="contact-us">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/contactus" data-page="contact-us">Contact Us</a></li>
             </ul>
         </div>
         <div class="header-phone">
-                <a class="btn btn-secondary text white badge-pill" href="tel:{!!$config["contact"]["fax"]!!}">
+                <a class="btn btn-primary text white badge-pill" href="tel:{!!$config["contact"]["fax"]!!}">
                     <i class="fas fa-phone-alt"></i>
                     <span class="d-md-inline-block d-none pl-1">Call Us</span>
                 </a>
