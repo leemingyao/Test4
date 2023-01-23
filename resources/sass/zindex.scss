@@ -1,0 +1,13 @@
+#header {
+    z-index: 99;
+
+    .header-inner {
+        z-index: 99;
+    }
+    .header-logo {
+        z-index:1;
+    }
+    .header-mobile-nav{
+        z-index:10;
+    }
+}

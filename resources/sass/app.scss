@@ -1,8 +1,49 @@
-// Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+$font-family-san-serif:'Open Sans',san-serif;
+$font-primary:'Open Sans', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
 
-// Variables
-@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,400i,700,700i');
+$primary: #2F5496;
+$secondary:white;
+$dark: #000;
+// $tertiery: #e7e7e7;
 
-// Bootstrap
-@import 'bootstrap/scss/bootstrap';
+$breadcrumb-bg:transparent;
+$breadcrumb-active-color:$dark;
+$headings-font-family:$font-primary;
+$headings-font-weight:400;
+$btn-border-radius:0;
+$btn-border-radius-lg:0;
+$btn-border-radius-sm:0;
+
+// $container-max-widths: (
+//     sm: 540px,
+//     md: 720px,
+//     lg: 960px,
+//     xl: 1440px
+// );
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+//@import '~slick-carousel/slick/slick';
+//@import '~slick-carousel/slick/slick-theme';
+//@import '~smartphoto/scss/smartphoto';
+
+h1, .h1{
+    background-color: $primary;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 3px;
+}
+h2, .h2{    
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+@import "layout.scss";
+@import "navmenu.scss";
+@import "hamburger.scss";
+@import "zindex.scss";
+@import "custom.scss";

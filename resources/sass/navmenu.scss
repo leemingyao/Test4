@@ -1,0 +1,74 @@
+#header{
+    .nav-menu { list-style: none; padding:0; margin:0;position: relative; display:flex; justify-content: center; width:100%;}
+    .nav-menu li {position:relative;}
+    .nav-menu a,
+    .nav-menu a:link,
+    .nav-menu a:hover { text-decoration: none; }
+    .nav-menu > li > a{
+        color:$header-font-color;
+        font-family:$font-secondary;
+        font-weight:400;
+        width:100%;
+        position:relative;
+    }
+
+    .nav-one > li > a{    
+        display: block;
+        padding: 10px 25px;
+        color: #000;
+        font-size: 12px;
+        font-weight:700;
+    }
+
+    
+    // Hover section
+    .nav-one > li > a.active,
+    .nav-one > li > a:hover{
+        color:$secondary;
+    }
+
+    
+
+    .header-mobile-nav{
+        .nav-menu {
+            flex-direction:column;
+        }
+        .nav-menu > li > a{
+            color:$dark;
+        }
+
+        .nav-menu > li > a.active,
+        .nav-menu > li > a:hover{
+            text-decoration: none;
+            background:#fff;
+            color:$secondary;
+        }
+    }
+}
+
+#footer{
+    .nav-menu { display:flex;list-style: none; padding:0; margin:0;position: relative; }
+    .nav-menu li {position:relative;}
+    .nav-menu a,
+    .nav-menu a:link,
+    .nav-menu a:hover { text-decoration: none; }
+    .nav-menu > li > a{
+        font-family:$font-secondary;
+        font-size:12px;
+        width:100%;
+        display:flex;
+        position:relative;
+        color:#fff;
+        padding: 0 10px;
+    }
+    .nav-menu > li > a:hover,
+    .nav-menu > li > a.active{
+        text-decoration: underline;
+    }
+
+    .nav-splitter {
+        border-left: 1px solid #fff;
+        margin: 0 10px;
+        padding: 0;
+    }
+}

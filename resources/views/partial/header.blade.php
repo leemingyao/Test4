@@ -1,9 +1,67 @@
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        @yield("meta")
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    </head>
-</html>
+<header id="header">
+<div class="header-topline"></div>
+    <div class="header-inner">
+        <div class="header-hamburger">
+            <div class="hamburger-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+       <div class="header-logo mx-md-0 mx-auto">
+            <a href='/'>
+                <img src='localdev.test4.com/resources/img/logo.png' class="img-fluid" alt="Star Pacific Lines" />
+            </a>
+       </div>
+        <div class="header-nav">
+            <ul class="nav-menu nav-one">
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/home" data-page="home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/about-us" data-page="about-us">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/our-services" data-page="our-services">Our Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/news" data-page="news">News & Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/contact-us" data-page="contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="header-phone">
+                <a class="btn btn-secondary text white badge-pill" href="tel:{!!$config["contact"]["fax"]!!}">
+                    <i class="fas fa-phone-alt"></i>
+                    <span class="d-md-inline-block d-none pl-1">Call Us</span>
+                </a>
+        </div>
+    </div>
+    <!-- <div class="header-mobile-nav">
+        <ul class="nav-menu nav-one">
+            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/home" data-page="home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/about-us" data-page="about-us">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/our-services" data-page="our-services">Our Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/news" data-page="news">News & Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/contact-us" data-page="contact-us">Contact Us</a></li>
+        </ul>
+        <div class="header-contact">
+            <div class="header-contact-item contact-mobile">
+                <a href="tel:<?php echo str_replace(" ","", $config["contact"]["fax"]) ?>">
+                    <?php echo $config["contact"]["fax"] ?>
+                </a>
+            </div>
+            <div class="header-contact-item contact-addr">
+                <a href="<?php echo $config["contact"]["location"] ?>" target="_blank">
+                    <?php echo $config["contact"]["addr"]; ?><br />
+                    <?php echo $config["contact"]["addr2"]; ?><br />
+                    <?php echo $config["contact"]["addr3"]; ?>
+                </a>
+            </div>
+            <div class="header-contact-item contact-email">
+                <a href="mailto:<?php echo $config["contact"]["email"] ?>">
+                    <?php echo $config["contact"]["email"] ?>
+                </a>
+            </div>
+        </div>
+        <div class="header-socialmedia">
+            <div class="socialmedia-item logo-fb">
+                <a href="<?php echo $config["social"]["facebook"] ?>">
+                    <img src="<?php echo $config["app_url"] ?>/img/social/facebook.png" class="img-fluid bg-light rounded-circle" alt="Welcome to our Facebook"/>
+                </a>
+            </div>
+        </div>
+    </div> -->
+</header>

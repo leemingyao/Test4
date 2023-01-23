@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+require_once '../app/Http/Controllers/ViewController.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +13,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+    $config = include_once '../config.php';
 
-Route::get('/', function () {
-    return view('welcome');
-});
+    Route::get((rtrim($config["app_url"]).'/'), 'ViewController@passData');
+
+    Route::get(rtrim($config["app_url"]).'/aboutus', function () {
+        return view('aboutus');
+    });
+
+    Route::get(rtrim($config["app_url"]).'/services', function () {
+        return view('services');
+    });
