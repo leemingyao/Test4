@@ -8,7 +8,11 @@
 @endsection
 @section('content')
 
-<div id="fullpage">
+<div id="fullpage" style="background: linear-gradient(rgba(93,81,47,0.6),rgba(0,0,0,0.6)),url(../img/logistics-company-malaysia.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;">
     <div id="banner" class="block block-banner banner-main section section-fullheight section-banner">
         <div class="banner-list">
             <div class="banner-item banner-1 w-100 ml-0" style="background: linear-gradient(rgba(93,81,47,0.6),rgba(0,0,0,0.6)),url(../img/banner.jpg);background-repeat: no-repeat;
@@ -17,7 +21,7 @@
                 <div class="banner-item-inner">
                     <div class="banner-content mb-5">
                         <div class="m-5">
-                            <h2 class="kf1 m-0"><span class="bg-light text-primary">LOGISTIC SPECIALIST <i class="fa-solid fa-thumbs-up text-dark"></i> </span></h2>
+                            <h2 class="kf1 m-0"><span class="bg-light text-primary">LOGISTIC SPECIALIST <i class="fa-solid fa-thumbs-up"></i> </span></h2>
                             <h1 class="kf2">WITH OVER</h1>
                             <h1 class="kf3"><mark class="text-primary bg-light">10 YEARS </mark>OF</h1>
                             <h1 class="kf4">EXPERIENCE</h1>
@@ -27,13 +31,57 @@
                     <a href="/contactus">
                         <div class="banner-bottom d-flex justify-content-around w-100">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h3>FREE INSPECTION</h3>
+                                <h3>Lorem Ipsum</h3>
                             </div>
                             <div class="d-flex align-items-center justify-content-center">
-                                <h3>100% MONEY BACK GUARANTEE</h3>
+                                <h3>Lorem Ipsum</h3>
                             </div>                        
                         </div>
                     </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" >
+        <div class="section-aboutus">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="text-primary font-weight-bold ">About Us</h2>
+                </div>
+                <div class="col-12">
+                    <p class="d-flex justify-content-center text-primary font-weight-bold">
+                        Curabitur et urna volutpat, consequat justo at, tempus diam. Mauris sit amet porttitor magna. </br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-services">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="text-light font-weight-bold">Our Services</h2>
+                </div>
+                <div class="col-12">
+                    <p class="d-flex justify-content-center text-light font-weight-bold">
+                        Curabitur et urna volutpat, consequat justo at, tempus diam. Mauris sit amet porttitor magna. </br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-news">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="text-primary font-weight-bold">Global News</h2>
+                </div>
+                <div class="col-12">
+                    <p class="d-flex justify-content-center text-primary font-weight-bold">
+                        Curabitur et urna volutpat, consequat justo at, tempus diam. Mauris sit amet porttitor magna. </br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    </p>
                 </div>
             </div>
         </div>

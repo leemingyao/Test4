@@ -136,7 +136,7 @@ $sectiongap:60px;
 // =========== Footer ================
 #footer {
     font-size:16px;
-    margin-top: $gap;
+    padding-top: $gap;
     background-color: $dark;
     .footer-copyright{
         padding: 10px 0px;
@@ -359,6 +359,7 @@ body.scrolled-up {
 
 // ======= section ===========
 #fullpage{
+    
     h2{
         letter-spacing: -1.3px;
         color:$color;
@@ -380,6 +381,22 @@ body.scrolled-up {
     .kf5{
         animation-delay: .8s;
     }
+}
+
+.section-aboutus{
+    padding-top: $sectiongap;
+    padding-bottom: $sectiongap;
+}
+
+.section-services{
+    padding-top: $sectiongap;
+    padding-bottom: $sectiongap;
+    background-color: $primary;
+}
+
+.section-news{
+    padding-top: $sectiongap;
+    padding-bottom: $sectiongap;
 }
 
 
@@ -475,7 +492,7 @@ body.scrolled-up {
     }
 }
 // ======== About Us =========
-.page-aboutus{
+.-aboutus{
     margin-top: $gap;
     h2,h5{
         color:$color !important;
