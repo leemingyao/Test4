@@ -43,11 +43,33 @@
         </div>
     </div>
 
-    <div class="container" >
-        <div class="section-aboutus">
+    
+    <div class="section-aboutus">
+        <div class="row w-100 h-100">
+            <div class="col-6 img-container">
+                
+            </div>
+            <div class="col-6 gap">
+                <div class="row p-3">
+                    <div class="col-12">
+                        <h2 class="text-primary font-weight-bold ">About Us</h2>
+                    </div>
+                    <div class="col-12">
+                        <p class="text-primary">
+                            Curabitur et urna volutpat, consequat justo at, tempus diam. Mauris sit amet porttitor magna. </br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-services">
+        <div class="container">
             <div class="row text-center">
                 <div class="col-12">
-                    <h2 class="text-primary font-weight-bold ">About Us</h2>
+                    <h2 class="text-primary font-weight-bold">Our Services</h2>
                 </div>
                 <div class="col-12">
                     <p class="d-flex justify-content-center text-primary font-weight-bold">
@@ -57,22 +79,10 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="section-services">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h2 class="text-light font-weight-bold">Our Services</h2>
-                </div>
-                <div class="col-12">
-                    <p class="d-flex justify-content-center text-light font-weight-bold">
-                        Curabitur et urna volutpat, consequat justo at, tempus diam. Mauris sit amet porttitor magna. </br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="section-news">
+    <div class="section-news">
+        <div class="container">
             <div class="row text-center">
                 <div class="col-12">
                     <h2 class="text-primary font-weight-bold">Global News</h2>

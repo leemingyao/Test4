@@ -45,7 +45,7 @@ $sectiongap:60px;
 // =========== Header ================
 #header {
     position: fixed;
-    background-color: #fff;
+    background-color: white;
     .header-inner {
         @extend .container;
         display:flex;
@@ -137,17 +137,15 @@ $sectiongap:60px;
 #footer {
     font-size:16px;
     padding-top: $gap;
-    background-color: $dark;
+    background-color: $light;
     .footer-copyright{
         padding: 10px 0px;
         font-size:15px;
-        color:$dark;
-        background: $primary;
+        background: $dark;
         width: 100%;
         text-align:center;
     }
     .footer-inner {
-        margin-bottom: $gap;
         display: flex;
         align-items: center;
         width:100%;
@@ -184,7 +182,7 @@ $sectiongap:60px;
             line-height: 40px;
         }        
         a {
-        color:rgba(94,94,94);
+        color:$primary;
             
         }
     }
@@ -195,7 +193,7 @@ $sectiongap:60px;
         list-style: none;
         > li {
             p{
-                color:rgba(94,94,94);
+                color:$primary;
             }
             padding-bottom:20px;
         }        > li > a {
@@ -384,14 +382,24 @@ body.scrolled-up {
 }
 
 .section-aboutus{
-    padding-top: $sectiongap;
-    padding-bottom: $sectiongap;
+    background-color:$light;
+    height:500px;
+    .img-container{
+        background-image: url(../../img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .gap{
+        padding-top: $sectiongap;
+        padding-bottom: $sectiongap;
+    }
 }
 
 .section-services{
     padding-top: $sectiongap;
     padding-bottom: $sectiongap;
-    background-color: $primary;
+    background-color:$dark;
 }
 
 .section-news{
