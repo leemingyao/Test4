@@ -8,14 +8,14 @@
 @endsection
 @section('content')
 
-<div id="fullpage" style="background: linear-gradient(rgba(93,81,47,0.6),rgba(0,0,0,0.6)),url(../img/logistics-company-malaysia.jpg);
+<div id="fullpage" style="background: linear-gradient(rgba(93,81,47,0.6),rgba(0,0,0,0.6)),url(../img/home-sectionservices-bg.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: fixed;
             background-position: center center;">
     <div id="banner" class="block block-banner banner-main section section-fullheight section-banner">
         <div class="banner-list">
-            <div class="banner-item banner-1 w-100 ml-0" style="background: linear-gradient(rgba(93,81,47,0.6),rgba(0,0,0,0.6)),url(../img/banner.jpg);background-repeat: no-repeat;
+            <div class="banner-item banner-1 w-100 ml-0" style="background: linear-gradient(rgba(93,81,47,0),rgba(0,0,0,0)),url(../img/banner1.jpg);
+            background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;">
                 <div class="banner-item-inner">
@@ -65,7 +65,9 @@
         </div>
     </div>
 
+
     <div class="section-services">
+        <div class="overlay"></div>
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -96,7 +98,13 @@
             </div>
         </div>
     </div>
+
+    <div class="engaging-customer">
+        <div class="overlay"></div>
+        @include('partial.engaging')
+    </div>
 </div>
+
 
 @endsection
 @section('custom_style')

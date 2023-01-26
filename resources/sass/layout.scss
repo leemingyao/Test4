@@ -399,26 +399,47 @@ body.scrolled-up {
 .section-services{
     padding-top: $sectiongap;
     padding-bottom: $sectiongap;
-    background-color:$dark;
+    background-image: url(../../img/logistics-company-malaysia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    position:relative;
+
 }
+    
+    
+
+.overlay
+{
+    width:100%;
+    height:100%;
+    background-color:lightblue;
+    opacity:0.7;
+    position: absolute;
+    top:0;
+}
+    // background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(../../img/home-sectionservices-bg.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center center;
+
 
 .section-news{
     padding-top: $sectiongap;
     padding-bottom: $sectiongap;
+    background-color: $light;
+    
 }
-
 
 
 // ======= custom ===========
 .engaging-customer {
     height:250px;
-    background: linear-gradient(rgba(255,221,5,0.5)), url(/img/about/Vision_Mission_01.png);
-    background-position: 50% 80%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color:$color;
+    color:$primary;
     display:flex;
     align-items: center;
+    position: relative;
     .col-sm-3{
         justify-content: flex-end;
     }
@@ -426,8 +447,17 @@ body.scrolled-up {
     .btn{
         font-size: 15px;
         padding: 30px;
-        background-color: rgb(64,64,64);
+        background-color: $primary;
         color: $light;
+    }
+    .overlay
+    {
+        width:100%;
+        height:100%;
+        background-color:lightcyan;
+        opacity:0.5;
+        position: absolute;
+        top:0;
     }
 }
 
