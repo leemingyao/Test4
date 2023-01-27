@@ -80,6 +80,20 @@
                     </p>
                 </div>
             </div>
+            <div class="row service-container">
+                <div class="service-type service1 mx-2 my-2 col-12 col-md-5 col-lg-2">
+
+                </div>
+                <div class="service-type service2 mx-2 my-2 col-12 col-md-5 col-lg-2">
+
+                </div>
+                <div class="service-type service3 mx-2 my-2 col-12 col-md-5 col-lg-2">
+
+                </div>
+                <div class="service-type service4 mx-2 my-2 col-12 col-md-5 col-lg-2">
+
+                </div>
+            </div>
         </div>
     </div>
 
