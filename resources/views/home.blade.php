@@ -82,16 +82,40 @@
             </div>
             <div class="row service-container">
                 <a href="/services" class="service-type service1 mx-2 my-2 col-12 col-md-5 col-lg-2">
-
+                    <div class="textcontainer">
+                        <h5>
+                            SEA FREIGHT </br>
+                            IMPORT & EXPORT
+                        </h5>
+                    </div>
+                    <div class="overlay"></div>
                 </a>
                 <a href="/services" class="service-type service2 mx-2 my-2 col-12 col-md-5 col-lg-2">
-
+                    <div class="textcontainer">
+                        <h5>
+                            AIR FREIGHT </br>
+                            IMPORT & EXPORT
+                        </h5>
+                    </div>
+                    <div class="overlay"></div>
                 </a>
                 <a href="/services" class="service-type service3 mx-2 my-2 col-12 col-md-5 col-lg-2">
-
+                    <div class="textcontainer">
+                        <h5>
+                            LAND 
+                            TRANSPORT </br>
+                            SERVICES
+                        </h5>
+                    </div>
+                    <div class="overlay"></div>
                 </a>
                 <a href="/services" class="service-type service4 mx-2 my-2 col-12 col-md-5 col-lg-2">
-
+                    <div class="textcontainer">
+                        <h5>
+                            SHIPPING COST ESTIMATION 
+                        </h5>
+                    </div>
+                    <div class="overlay"></div>
                 </a>
             </div>
         </div>

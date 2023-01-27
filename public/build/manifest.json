@@ -1,6 +1,30 @@
 {
+  "public/img/aboutus.jpg": {
+    "file": "assets/aboutus-8cabe646.jpg",
+    "src": "public/img/aboutus.jpg"
+  },
+  "public/img/banner2.jpg": {
+    "file": "assets/banner2-e5efbd7c.jpg",
+    "src": "public/img/banner2.jpg"
+  },
+  "public/img/air-freight-services.webp": {
+    "file": "assets/air-freight-services-999adad7.webp",
+    "src": "public/img/air-freight-services.webp"
+  },
+  "public/img/landside-transportation.jpg": {
+    "file": "assets/landside-transportation-61a880a2.jpg",
+    "src": "public/img/landside-transportation.jpg"
+  },
+  "public/img/ocean-transport.jpg": {
+    "file": "assets/ocean-transport-9d7e232f.jpg",
+    "src": "public/img/ocean-transport.jpg"
+  },
+  "public/img/logistics-company-malaysia.jpg": {
+    "file": "assets/logistics-company-malaysia-9563fade.jpg",
+    "src": "public/img/logistics-company-malaysia.jpg"
+  },
   "resources/sass/app.scss": {
-    "file": "assets/app-50cf9e3d.css",
+    "file": "assets/app-eea1c5e1.css",
     "src": "resources/sass/app.scss",
     "isEntry": true
   },
