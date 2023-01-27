@@ -423,8 +423,6 @@ body.scrolled-up {
             border-radius: 5px;
             position:relative;
             display:flex;
-            background-repeat: no-repeat;
-            background-size: cover;
             // X-Small devices (portrait phones, less than 576px)
             @media (max-width: 575.98px) { 
                 width:90%;
@@ -432,21 +430,28 @@ body.scrolled-up {
         }
 
         .service1{
-            background-image: url(../../img/ocean-transport.jpg);
+            background: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.0)),url(../../img/ocean-transport.jpg);
             background-position: 65%;
-            
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .service2{
-            background-image: url(../../img/air-freight-services.webp);
+            background: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.0)),url(../../img/air-freight-services.webp);
             background-position: 65%;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .service3{
-            background-image: url(../../img/landside-transportation.jpg);
+            background: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.0)),url(../../img/landside-transportation.jpg);
             background-position: 87%;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .service4{
-            background-image: url(../../img/logistics-company-malaysia.jpg);
+            background: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.0)),url(../../img/logistics-company-malaysia.jpg);
             background-position: 84%;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     }
 }
