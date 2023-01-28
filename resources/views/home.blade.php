@@ -134,6 +134,7 @@
                     </p>
                 </div>
             </div>
+            <div class="app text-center text-primary"></div>
         </div>
     </div>
 
