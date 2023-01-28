@@ -1,3 +1,14 @@
+<script>
+export default {
+    data() {
+    return {
+      message: 'Hello World!'
+    }
+  }
+}
+</script>
+
+
 <template>
-    How To Install Vue 3 in Laravel 9 with Vite - TechvBlogs
+    <h1>{{ message }}</h1>
 </template>

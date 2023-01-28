@@ -4,4 +4,4 @@ import {createApp} from 'vue';
 
 import text from './vue/content.vue';
 
-createApp(text).mount(".app");
+createApp(text).mount("#app");

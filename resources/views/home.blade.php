@@ -134,9 +134,10 @@
                     </p>
                 </div>
             </div>
-            <div class="app text-center text-primary"></div>
+            <div id="app"></div>
         </div>
     </div>
+    
 
     <div class="engaging-customer">
         <div class="overlay"></div>
