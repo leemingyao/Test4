@@ -134,7 +134,27 @@
                     </p>
                 </div>
             </div>
-            <div id="app"></div>
+            
+
+            <div id="container">
+                <card></card>
+            </div>
+            
+            <script type="text/x-template" id="blog-card">
+                <a class="card-link" href="#">
+                    <article class="blog-card">
+                        <img class="post-image" :src="image" />
+                        <div class="article-details">
+                            <h4 class="post-category">@{{ category }}</h4>
+                            <h3 class="post-title">@{{ name }}</h3>
+                            <p class="post-description">@{{ desc }}</p>
+                            <p class="post-author">By @{{ author }}</p>
+                        </div>
+                    </article>
+                </a>
+            </script>
+
+            
         </div>
     </div>
     
@@ -153,7 +173,9 @@
 </style>
 @endsection
 @section('javascript')
+
 <script>
+
 var InitSectionHeight = function(){
     var height = $(window).height();
     $(".section-fullheight").css('height',height + 'px');
