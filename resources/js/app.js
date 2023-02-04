@@ -17,19 +17,33 @@ Vue.component('card', {
   });
 
   $('.slick-class').slick({
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     arrows: true,
-    dots: true,
     autoplaySpeed: 2000,
     responsive: [
       {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
         breakpoint: 480,
         settings: {
-          arrows: false,
-          centerMode: true,
-          slidesToShow: 1
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       }
     ]
