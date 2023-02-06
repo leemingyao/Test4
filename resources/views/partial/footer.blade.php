@@ -3,19 +3,20 @@
         <div class="row">
             <div class="col-12 col-sm-4 mb-5">
                 <div class="footer-logo">
-                    <a href='/'>
-                        <img src="{!! rtrim($config["app_url"], '/')!!}/img/logo.png" class="img-fluid" alt="Little Wonders" />
+                    <a href='/' class="logo-container py-1">
+                        <img src="{!! rtrim($config["app_url"], '/')!!}/img/logo.png" class="img-fluid pr-2" alt="Star Pacific Lines" />
+                        <h5 class="mb-1 pl-2">
+                            Star Pacific Lines </br> 
+                            Sdn. Bhd.
+                        </h5>
                     </a>
                 </div>
                 <br>
                 <p class="text-justify m-0 text-primary">
-                    <b>{!!$config["company_name"]!!}</b> is a 
-                    pest control solution provider with a 
-                    reputation for exceptional customer
-                    service and effective results for our 
-                    pest management. 
+                    <b>{!!$config["company_name"]!!}</b> is a group of like-minded individuals with varying experiences banded together 
+                    in 2011 with the immutable belief that trust and dedication in our services can compete and complete the supply 
+                    chain. We innovate and invent, providing best in-class offerings time and again.
                 </p>
-                <br />
                 <br>
                 <a class="float-right" href='/about-us'>Read More ></a>
             </div>
@@ -26,11 +27,11 @@
                         <h5 class="text-primary"><b>ABOUT</b></h5>
                         <ul class='quicklink-list'>
                             <div class="row">
-                                <li class="col-6 col-sm-12"><a href='/home'>Home</a></li>
-                                <li class="col-6 col-sm-12"><a href='/about-us'>About Us</a></li>
-                                <li class="col-6 col-sm-12"><a href='/our-services'>Our Services</a></li>
+                                <li class="col-6 col-sm-12"><a href='/'>Home</a></li>
+                                <li class="col-6 col-sm-12"><a href='/aboutus'>About Us</a></li>
+                                <li class="col-6 col-sm-12"><a href='/services'>Our Services</a></li>
                                 <li class="col-6 col-sm-12"><a href='/news'>News & Gallery</a></li>
-                                <li class="col-6 col-sm-12"><a href='/contact-us'>Contact Us</a></li>
+                                <li class="col-6 col-sm-12"><a href='/contactus '>Contact Us</a></li>
                             </div>
                         </ul>
                     </div>

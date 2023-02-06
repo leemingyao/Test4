@@ -141,7 +141,8 @@ $sectiongap:60px;
     .footer-copyright{
         padding: 10px 0px;
         font-size:15px;
-        background: $dark;
+        background: $primary;
+        font-style: italic;
         width: 100%;
         text-align:center;
     }
@@ -150,11 +151,24 @@ $sectiongap:60px;
         align-items: center;
         width:100%;
         flex: 1 0 auto;
+        a{
+            text-decoration: none;
+        }
         h5{
             margin-bottom: 1rem;
         }
+        .logo-container{
+            display: flex;
+            align-items: center;
+            h5{
+                font-style: italic;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+        
         .img-fluid{
-            width:60%;
+            width:25%;
         }
     }
     .footer__socialmedia{
@@ -174,10 +188,11 @@ $sectiongap:60px;
     }
 
     .quicklink-list{
+        text-decoration: none;
         padding: 0;
         margin: 0;
         list-style: none;
-        > li {
+        .col-sm-12{
             padding-bottom:10px;
             line-height: 40px;
         }        
@@ -198,7 +213,7 @@ $sectiongap:60px;
             padding-bottom:20px;
         }        > li > a {
             margin-top: -2px;
-            color:rgba(94,94,94);
+            color:$primary;
         }
         > li > i {
             padding-right: 15px;}
@@ -609,14 +624,16 @@ body.scrolled-up {
 
 // ======= custom ===========
 .engaging-customer {
-    height:250px;
     color:$primary;
     display:flex;
     align-items: center;
     position: relative;
+    padding-top: $sectiongap;
+    padding-bottom: $sectiongap;
     .col-sm-3{
         justify-content: flex-end;
     }
+
 
     .btn{
         font-size: 15px;

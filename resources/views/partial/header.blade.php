@@ -10,7 +10,10 @@
         </div>
         <a href='/' class="logo-container py-1">
             <img src="{!! rtrim($config["app_url"], '/')!!}/img/logo.png" class="img-fluid pr-2" alt="Star Pacific Lines" />
-            <p class="mb-1">Star Pacific Lines Sdn. Bhd.</p>
+            <p class="mb-1">
+                Star Pacific Lines<br/>
+                Sdn. Bhd.
+            </p>
         </a>
         <div class="header-nav">
             <ul class="nav-menu nav-one">
