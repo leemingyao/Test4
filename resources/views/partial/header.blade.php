@@ -1,5 +1,5 @@
 <header id="header">
-<div class="header-topline"></div>
+    <div class="header-topline"></div>
     <div class="header-inner">
         <div class="header-hamburger">
             <div class="hamburger-nav">
@@ -31,13 +31,16 @@
                 </a>
         </div>
     </div>
-    <!-- <div class="header-mobile-nav">
+    <div class="header-mobile-nav">
+        <div class="cross-container">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
         <ul class="nav-menu nav-one">
             <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/home" data-page="home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/about-us" data-page="about-us">About Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/our-services" data-page="our-services">Our Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/aboutus" data-page="about-us">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/services" data-page="our-services">Our Services</a></li>
             <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/news" data-page="news">News & Gallery</a></li>
-            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/contact-us" data-page="contact-us">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/contactus" data-page="contact-us">Contact Us</a></li>
         </ul>
         <div class="header-contact">
             <div class="header-contact-item contact-mobile">
@@ -65,5 +68,5 @@
                 </a>
             </div>
         </div>
-    </div> -->
+    </div>
 </header>

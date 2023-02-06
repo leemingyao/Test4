@@ -1,6 +1,14 @@
 import './bootstrap';
 import '../css/app.css';
 
+//header
+$( ".header-hamburger" ).click(function() {
+  $( ".header-mobile-nav" ).css( "display", "block");
+  $( ".header-topline" ).css( "display", "block");
+  $( ".header-inner" ).css( "display", "none");
+});
+
+//HOME
 Vue.component('card', {
     template: '#blog-card',
     data: () => ({
