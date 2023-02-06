@@ -52,12 +52,18 @@ $sectiongap:60px;
         align-items:center;
         height: $header-height;
         position: relative;
+        .nav-item{
+            text-align: center;
+        }
         
         .header-contact{
             width: 100%;
             ul{
                 list-style: none;
-            float:right;
+                float:right;
+            }
+            @media (max-width: 768px) { 
+                display: none;
             }
         }
     }
@@ -80,13 +86,21 @@ $sectiongap:60px;
     .header-nav{
         margin-left: auto;
         position:relative;
-        
+        @media (max-width: 768px) { 
+            display: none;
+        }
     }
+
     .header-topline{
         display:none;
     }
     .header-hamburger{
         display:none;
+        @media (max-width: 768px) { 
+            display: flex;
+            position: absolute;
+            right: 0;
+        }
     }
     .header-mobile-nav{
         display:none;

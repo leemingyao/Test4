@@ -11,13 +11,13 @@
         <a href='/' class="logo-container py-1">
             <img src="{!! rtrim($config["app_url"], '/')!!}/img/logo.png" class="img-fluid pr-2" alt="Star Pacific Lines" />
             <p class="mb-1">
-                Star Pacific Lines<br/>
+                Star Pacific Lines
                 Sdn. Bhd.
             </p>
         </a>
         <div class="header-nav">
             <ul class="nav-menu nav-one">
-                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/" data-page="home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/home" data-page="home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/aboutus" data-page="aboutus">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/services" data-page="our-services">Our Services</a></li>
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/news" data-page="news">News & Gallery</a></li>
