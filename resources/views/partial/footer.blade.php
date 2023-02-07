@@ -18,7 +18,7 @@
                     chain. We innovate and invent, providing best in-class offerings time and again.
                 </p>
                 <br>
-                <a class="float-right" href='/about-us'>Read More ></a>
+                <a class="float-right font-weight-bold" href='/aboutus'>Read More ></a>
             </div>
             <div class="col-sm-1"></div>
             <div class="col-12 col-sm-7">

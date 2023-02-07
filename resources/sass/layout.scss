@@ -66,15 +66,27 @@ $sectiongap:60px;
                 display: none;
             }
         }
+        .header-phone{
+            i{
+                -moz-transform: scale(-1, 1);
+                -webkit-transform: scale(-1, 1);
+                -o-transform: scale(-1, 1);
+                -ms-transform: scale(-1, 1);
+                transform: scale(-1, 1);
+            }
+        }
     }
 
     .logo-container{   
-        width: 40%;
+        width: 30%;
         height: 100%;
         position: relative;
         display: flex;
         text-align: center;
         text-decoration: none;
+        @media (max-width: 1023px) { 
+            width: 38%;
+        }
         @media (max-width: 426px) { 
             width: 64%;
         }
@@ -96,7 +108,7 @@ $sectiongap:60px;
     .header-nav{
         margin-left: auto;
         position:relative;
-        @media (max-width: 928px) { 
+        @media (max-width: 1023px) { 
             display: none;
         }
     }
@@ -119,7 +131,7 @@ $sectiongap:60px;
     }
     .header-hamburger{
         display:none;
-        @media (max-width: 768px) { 
+        @media (max-width: 1023px) { 
             display: flex;
             position: absolute;
             right: 0;
@@ -455,6 +467,10 @@ body.scrolled-up {
     .gap{
         padding-top: $sectiongap;
         padding-bottom: $sectiongap;
+    }
+    a{
+        text-decoration: none;
+        font-weight: bold;
     }
 }
 

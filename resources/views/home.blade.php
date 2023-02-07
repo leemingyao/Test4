@@ -59,6 +59,8 @@
                             Curabitur et urna volutpat, consequat justo at, tempus diam. Mauris sit amet porttitor magna. </br>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         </p>
+                        <br>
+                        <a class="float-right" href='/aboutus'>Read More ></a>
                     </div>
                 </div>
             </div>

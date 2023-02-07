@@ -15,7 +15,7 @@
             </p>
         </a>
         <div class="header-nav">
-            <ul class="nav-menu nav-one">
+            <ul class="nav-menu nav-one align-item-center">
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/home" data-page="home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/aboutus" data-page="aboutus">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/services" data-page="our-services">Our Services</a></li>
@@ -24,10 +24,10 @@
             </ul>
         </div>
         <div class="header-phone">
-                <a class="btn btn-primary text white badge-pill" href="tel:{!!$config["contact"]["fax"]!!}">
-                    <i class="fas fa-phone-alt"></i>
-                    <span class="d-md-inline-block d-none pl-1">Call Us</span>
-                </a>
+            <a class="btn btn-primary text white badge-pill" href="tel:{!!$config["contact"]["fax"]!!}">
+                <i class="fas fa-phone-alt"></i>
+                <span class="d-md-inline-block d-none pl-1">Call Us</span>
+            </a>
         </div>
     </div>
     <div class="header-topline">

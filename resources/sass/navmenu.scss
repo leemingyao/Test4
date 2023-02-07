@@ -1,5 +1,14 @@
 #header{
-    .nav-menu { list-style: none; padding:0; margin:0;position: relative; display:flex; justify-content: center; width:100%;}
+    .nav-menu { 
+        list-style: none; 
+        padding:0; 
+        margin:0;
+        position: relative; 
+        display:flex; 
+        justify-content: center; 
+        width:100%;
+    }
+
     .nav-menu li {position:relative;}
     .nav-menu a,
     .nav-menu a:link,
@@ -14,9 +23,9 @@
 
     .nav-one > li > a{    
         display: block;
-        padding: 10px 25px;
-        color: rgb(64,64,64);
-        font-size: 15px;
+        padding: 10px 20px;
+        color: $dark;
+        font-size: 13px;
         font-weight:700;
     }
 

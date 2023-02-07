@@ -6,7 +6,7 @@
         </div>
         <div class="col-12 col-md-3 d-flex align-items-center ">
             <a class="btn btn-lg float-sm-right font-weight-bold" style="padding-top: 10px;
-    padding-bottom: 10px;" href="/contact-us">
+    padding-bottom: 10px;" href="/contactus">
                 Contact Us
             </a>
         </div>
