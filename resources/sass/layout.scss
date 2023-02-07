@@ -103,6 +103,19 @@ $sectiongap:60px;
 
     .header-topline{
         display:none;
+        height: $header-height;
+        background-color: $light;
+        position: relative;
+        .cross-container{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            i{
+                font-size: 50px;
+                color: $primary;
+            }
+        }
     }
     .header-hamburger{
         display:none;
@@ -114,19 +127,29 @@ $sectiongap:60px;
     }
     .header-mobile-nav{
         display:none;
-        padding-top: $header-height;
         height: 100vh;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
+        margin-top: -1px;
+        position: relative;
         background: $primary;
 
         .header-contact{
-            padding: 10px 25px;
+            padding: 10px 65px;
+            i{
+                font-size: 35px;
+                background-color: $light;
+                color: $primary;
+                padding: 5px;
+                border-radius: 10px;
+                -moz-transform: scale(-1, 1);
+                -webkit-transform: scale(-1, 1);
+                -o-transform: scale(-1, 1);
+                -ms-transform: scale(-1, 1);
+                transform: scale(-1, 1);
+            }
             .header-contact-item a{
-                font-size: 1rem;
-                color:$secondary;
+                font-size: 37px;
+                color:$light;
+                text-decoration: none;
             }
         }
 

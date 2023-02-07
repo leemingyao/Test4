@@ -34,13 +34,16 @@
             flex-direction:column;
         }
         .nav-menu > li > a{
-            color:$color;
+            color:$light;
+            font-weight: bold;
+            padding-left: 65px;
+            font-size: 40px;
         }
 
         .nav-menu > li > a.active,
         .nav-menu > li > a:hover{
             text-decoration: none;
-            background:#fff;
+            background:$light;
             color:$primary;
         }
     }

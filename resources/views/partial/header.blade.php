@@ -1,5 +1,4 @@
 <header id="header">
-    <div class="header-topline"></div>
     <div class="header-inner">
         <div class="header-hamburger">
             <div class="hamburger-nav">
@@ -31,10 +30,12 @@
                 </a>
         </div>
     </div>
-    <div class="header-mobile-nav">
+    <div class="header-topline">
         <div class="cross-container">
             <i class="fa-solid fa-xmark"></i>
         </div>
+    </div>
+    <div class="header-mobile-nav">
         <ul class="nav-menu nav-one">
             <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/home" data-page="home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/aboutus" data-page="about-us">About Us</a></li>
@@ -43,11 +44,6 @@
             <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/contactus" data-page="contact-us">Contact Us</a></li>
         </ul>
         <div class="header-contact">
-            <div class="header-contact-item contact-mobile">
-                <a href="tel:<?php echo str_replace(" ","", $config["contact"]["fax"]) ?>">
-                    <?php echo $config["contact"]["fax"] ?>
-                </a>
-            </div>
             <div class="header-contact-item contact-addr">
                 <a href="<?php echo $config["contact"]["location"] ?>" target="_blank">
                     <?php echo $config["contact"]["addr"]; ?><br />
@@ -55,9 +51,16 @@
                     <?php echo $config["contact"]["addr3"]; ?>
                 </a>
             </div>
+            <div class="header-contact-item contact-mobile">
+                <i class="fas fa-phone-alt"> </i>
+                <a href="tel:<?php echo str_replace(" ","", $config["contact"]["fax"]) ?>">
+                    <?php echo ": " . $config["contact"]["fax"] ?>
+                </a>
+            </div>
             <div class="header-contact-item contact-email">
+                <i class="fa-solid fa-envelope"></i>
                 <a href="mailto:<?php echo $config["contact"]["email"] ?>">
-                    <?php echo $config["contact"]["email"] ?>
+                    <?php echo ": " . $config["contact"]["email"] ?>
                 </a>
             </div>
         </div>

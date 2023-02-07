@@ -8,6 +8,12 @@ $( ".header-hamburger" ).click(function() {
   $( ".header-inner" ).css( "display", "none");
 });
 
+$( ".fa-solid" ).click(function() {
+  $( ".header-mobile-nav" ).css( "display", "none");
+  $( ".header-topline" ).css( "display", "none");
+  $( ".header-inner" ).css( "display", "flex");
+});
+
 //HOME
 Vue.component('card', {
     template: '#blog-card',
