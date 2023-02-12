@@ -1,7 +1,7 @@
 import './bootstrap';
 import '../css/app.css';
 
-//header
+//header-hamburger
 $( ".header-hamburger" ).click(function() {
   $( ".header-mobile-nav" ).css( "display", "block");
   $( ".header-topline" ).css( "display", "block");
@@ -13,6 +13,7 @@ $( ".fa-solid" ).click(function() {
   $( ".header-topline" ).css( "display", "none");
   $( ".header-inner" ).css( "display", "flex");
 });
+
 
 //HOME
 Vue.component('card', {
@@ -63,4 +64,5 @@ Vue.component('card', {
     ]
   });
       
+  
       

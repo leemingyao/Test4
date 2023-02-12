@@ -1,7 +1,7 @@
 @extends('layout')
 @section('meta')
 
-
+<title>{!!$config["company_name"]!!} || One Stop Logistic Solution</title>
 <meta property="og:description" content="We are pest control solution provider serving in Johor area - Sepcialized in Termites Elimination. Free Inspection + 100% Money Back Guarantee" />
 <meta name='description' content='We are pest control solution provider serving in Johor area - Sepcialized in Termites Elimination. Free Inspection + 100% Money Back Guarantee' />
 <meta name='keywords' content='propestsolution, propest, pest control, termite control' />

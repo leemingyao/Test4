@@ -12,14 +12,14 @@ return [
         'addr3' => '81100 Johor Bahru,',
         'addr4' => 'Johor, Malaysia.',
         'email' => 'cs@starpacific.com.my',
-        'location' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.3014944634291!2d103.78741708972883!3d1.5577338209569858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6e9b472ba4ef%3A0x3cda153a9bd9f3fd!2s107%2C%20Jalan%20Harmonium%2035%2F1%2C%20Taman%20Mount%20Austin%2C%2081100%20Johor%20Bahru%2C%20Johor!5e0!3m2!1sen!2smy!4v1584412373845!5m2!1sen!2smy',
+        'location' => 'https://www.google.com/maps/embed/v1/place?q=54B%2C%20Jalan%20Molek%202%2F2%2C%20Taman%20Molek%2C%2081100%20Johor%20Bahru%2C%20Johor&key=AIzaSyAol5IlLq_xh3MJmRFZxN1332L1u2cmTLw',
     ],
     'social' => [
-        'facebook' => 'https://www.facebook.com/propestsolution/',
+        'facebook' => '',
         'instagram' => '',
     ],
     'seo' => [
-        'title' => 'PROPEST SOLUTION',
+        'title' => 'STAR PACIFIC LINES SDN. BHD.',
         'type' => 'Website',
         'url' => '//propestsolution.com',
         'image' => '/img/logo-og.png',
