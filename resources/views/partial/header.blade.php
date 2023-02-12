@@ -64,12 +64,12 @@
                 </a>
             </div>
         </div>
-        <div class="header-socialmedia">
+        <!-- <div class="header-socialmedia">
             <div class="socialmedia-item logo-fb">
                 <a href="<?php echo $config["social"]["facebook"] ?>">
                     <img src="<?php echo $config["app_url"] ?>/img/social/facebook.png" class="img-fluid bg-light rounded-circle" alt="Welcome to our Facebook"/>
                 </a>
             </div>
-        </div>
+        </div> -->
     </div>
 </header>

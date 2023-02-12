@@ -405,10 +405,10 @@ body.scrolled-up {
     height: calc(300px + 70px);
     margin: auto;
     position: relative;
-    background:linear-gradient(rgba(255,255,255,0.9) , rgba(255,221,5,0.5)),url(../../public/img/banner2.jpg);
+    background:linear-gradient(rgba(255,255,255,0.5) , rgba(255,255,255,0.5)),url(/../public/img/subbanner-aboutus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -419,7 +419,7 @@ body.scrolled-up {
         align-items: center;
         h1{
             letter-spacing: -5px;
-            color:$color;
+            color:$primary;
             margin:0;
         }
     }
@@ -429,7 +429,7 @@ body.scrolled-up {
     }
 }
 
-// ======= section ===========
+// ======= Home Page Section ===========
 #fullpage{
     
     h2{
@@ -555,15 +555,6 @@ body.scrolled-up {
         }
     }
 }
-    
-    
-
-
-    // background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(../../img/home-sectionservices-bg.jpg);
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position: center center;
-
 
 .section-news{
     padding-top: $sectiongap;
@@ -715,21 +706,47 @@ body.scrolled-up {
     }
 }
 
-// ======== About Us =========
-.-aboutus{
-    margin-top: $gap;
-    h2,h5{
-        color:$color !important;
+// ======== Page About Us =========
+.page-aboutus{
+    padding-top: $gap;
+    background:linear-gradient(rgba(255,255,255,0.5) , rgba(255,255,255,0.5)),url(/../public/img/pageaboutus-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    p,h1,h3,h2,h5{
+        color:$primary;
     }
     .section-text{
         margin-bottom: $sectiongap;
     }
     .section-excellence{
-        color:$color;
+        color:$primary;
         .row{
             display:flex;
             align-items: center;
         }
+        .excellence-content-2{
+            margin-top: $sectiongap;
+            margin-bottom: $sectiongap;
+            @media (max-width: 993px) { 
+                border: 5px solid $primary;
+                box-shadow: 0 0 30px lighten(#000, 60%);
+            }
+            
+            img{
+                
+            }
+            .content{
+                background-color: rgba(yellow,0.5);
+                font-weight: bold;
+                @media (min-width: 993px) { 
+                    border: 5px solid $primary;
+                    box-shadow: 0 0 30px lighten(#000, 60%);
+                }
+            }
+
+        }
+        
         
     }
 
@@ -744,12 +761,16 @@ body.scrolled-up {
                 align-items:center;
             }
             .vision-right{
+                
                 position: relative;
                 display:flex;
                 align-items: center;
                 justify-content: center;
                 .vision{
-                    background-color: $primary;
+                    border: 5px solid $primary;
+                    box-shadow: 0 0 30px lighten(#000, 60%);
+                    background-color: rgba(yellow,0.5);
+                    font-weight: bold;
                     padding: 1.5rem;
                     position: relative;
                     cursor: pointer;
@@ -757,7 +778,6 @@ body.scrolled-up {
                         content: '';
                         display: block;
                         position: absolute;
-                        background-color: #000;
                         left: 20px;
                         right: 20px;
                         bottom: 0;
@@ -775,7 +795,10 @@ body.scrolled-up {
                     }
                 }
                 .mission{
-                    background-color: $primary;
+                    border: 5px solid $primary;
+                    box-shadow: 0 0 30px lighten(#000, 60%);
+                    background-color: rgba(yellow,0.5);
+                    font-weight: bold;
                     padding: 1.5rem;
                     position: relative;
                     cursor: pointer;
@@ -822,32 +845,13 @@ body.scrolled-up {
         }
         p{
             font-size: 14px;
+            text-align: justify;
         }
         img{
             margin-bottom: 1rem;
         }
         .col-md-4{
             padding:15px;
-        }
-    }
-
-    .section-clients{
-        padding-top: $sectiongap;
-        padding-bottom: $sectiongap;
-        .row{
-            justify-content: center;
-        }
-        h2{
-            margin-bottom: 3rem;
-        }
-        .col-md-2{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 5px;
-        }
-        .small-logo{
-            padding-top:1rem ;
         }
     }
 }
