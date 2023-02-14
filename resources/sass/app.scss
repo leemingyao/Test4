@@ -43,6 +43,10 @@ h2, .h2{
     letter-spacing: 2px;
 }
 
+mark{
+    background-color: yellow;
+}
+
 @import "layout.scss";
 @import "navmenu.scss";
 @import "hamburger.scss";

@@ -421,6 +421,7 @@ body.scrolled-up {
             letter-spacing: -5px;
             color:$primary;
             margin:0;
+            font-style: italic;
         }
     }
     img{
@@ -856,144 +857,126 @@ body.scrolled-up {
     }
 }
 
-// ======== Our Services =========
-.page-ourservices{
-    margin-top: $sectiongap;
-    h2,h3,p,h4{
-        color:$color;
+// ======== Page Our Services =========
+.page-services{
+    padding-top: $sectiongap;
+    background:linear-gradient(rgba(255,255,255,0.5) , rgba(255,255,255,0.5)),url(/../public/img/pageaboutus-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    p,h1,h3,h2,h5{
+        color:$primary;
     }
-    .section-toppests{
-        .container{
-            margin-bottom: $sectiongap;
+    h2,h3{
+        font-weight: bold;
+    }
+
+    .section-sea{
+        padding-bottom:$sectiongap;
+        
+        
+        p{
+            text-align: justify;
         }
-        .col-lg-4{
-            padding: 13px;
+
+        .img-container{
+            width:70%;
+            @media(max-width:1024px){
+                width: 100%;
+            }
         }
-        .card{
-            position: relative;
+        
+    }
+
+    .section-air{
+        padding-top:$sectiongap;
+        padding-bottom:$sectiongap;
+        padding-top: $sectiongap;
+        padding-bottom: $sectiongap;
+        background:linear-gradient(rgba($primary, 0.57) , rgba(($primary),0.8)),url(/../public/img/pageservice/aircargo1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        .img-container{
+            width:100%;
+        }
+        
+        p,h1,h3,h2,h5{
+            color:$light;
+        }
+        .text-container{
+            text-align: justify;
+        }
+        
+        .tab{
+            overflow: hidden;
+            margin-left:1px;
+        }
+
+        .tab-items{
+            color: $light;
+            border: 1px solid $light;
+            background-color: inherit;
+            float: left;
             cursor: pointer;
-            &:before {
-                content: '';
-                display: block;
-                position: absolute;
-                background-color: #000;
-                left: 20px;
-                right: 20px;
-                bottom: 0;
-                top: 50%;
-                z-index: -1;
-                box-shadow: 0 0 40px lighten(#000, 60%);
-                transition: box-shadow .2s ease-in-out;
-            }
-            &.level-3 {
-                &:hover {
-                    &:before {
-                        box-shadow: 0 0 80px lighten(#000, 60%);
-                    }
-                }
-            }
-            .card-body{
-                background-color: $primary;
-                @include media-breakpoint-down(sm){
-                    h3{
-                        font-size:100%;
-                    }
-                }
-            }
-
-            .insect-title{
-                padding: 1rem;
-                h3{
-                    margin: 0;
-                }
-            }
-            hr{
-                margin: .3rem 1.5rem
-            }
-            .insect-content{
-                padding: 0px 1.4rem 1.4rem 1.4rem;
-            }
-
-            .card-img{
-                height:200px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
+            padding: 14px 16px;
+            transition: 0.1s;
+            font-size: 17px;
+            font-weight: bold;
         }
-        img{
-            margin-bottom: -1px;
-            position: relative;
+        .tab-items:hover{
+            color: $primary;
+            background-color: $light;
+        }
+        .tab-items.active{
+            color: $primary;
+            background-color: $light;
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 10px 12px;
+            border-top: none;
+            label{
+                color:$light;
+            }
+          }
+        .img-container{
+            width:100%;
+        }
+        
+    }
+
+    .section-land{
+        padding-top: $sectiongap;
+        padding-bottom: $sectiongap;
+        .img-container{
+            width: 70%;
+            @media(max-width:1000px){
+                width: 100%;
+            }
         }
     }
 
-    .section-allpestcontrol{
-        margin-top: $sectiongap;
-        margin-bottom: $sectiongap;
-        .section-header-content{
-            margin-bottom: $sectiongap;
+    .section-costestimate{
+        padding-top: $sectiongap;
+        padding-bottom: $sectiongap;
+        background-color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .material-icons{
+            margin-bottom:-2px;
         }
-        .card{
-            position: relative;
-            cursor: pointer;
-            &:before {
-                content: '';
-                display: block;
-                position: absolute;
-                background-color: #000;
-                left: 20px;
-                right: 20px;
-                bottom: 0;
-                top: 50%;
-                z-index: -1;
-                box-shadow: 0 0 40px lighten(#000, 60%);
-                transition: box-shadow .2s ease-in-out;
-            }
-            &.level-3 {
-                &:hover {
-                    &:before {
-                        box-shadow: 0 0 80px lighten(#000, 60%);
-                    }
-                }
-            }
-            .card-body{
-                background-color: $primary;
-                @include media-breakpoint-down(sm){
-                    h3{
-                        font-size:100%;
-                    }
-                }
-            }
-            
-            .insect-title{
-                padding: 1rem;
-                h3{
-                    margin: 0;
-                }
-            }
-            hr{
-                margin: .3rem 1.5rem
-            }
-            .insect-content{
-                padding: 0px 1.4rem 1.4rem 1.4rem;
-            }
-            .card-img{
-                height:200px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-        }
-        .col-lg-4{
-            padding: 13px;
+
+        i{
+            -moz-transform: scale(-1, 1);
+            -webkit-transform: scale(-1, 1);
+            -o-transform: scale(-1, 1);
+            -ms-transform: scale(-1, 1);
+            transform: scale(-1, 1);
         }
     }
-}
-
-// ======== Product Details =========
-.page-product-detail{
-    margin-top: $gap;
-    margin-bottom: $gap;
 }
 
 // ========== news ===========
