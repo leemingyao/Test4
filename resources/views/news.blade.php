@@ -14,7 +14,7 @@
         <div>
             <h2>Global News</h2>
             <div class="grid-container">
-                <a class="grid-item grid-1">
+                <a class="grid-item grid-1" href="#">
                     <div class="overlay"></div>
                     <div class="overlaynav">
                         <h4>Lorem Ipsum</h4>
@@ -26,7 +26,7 @@
                         </p>
                     </div>
                 </a> 
-                <a class="grid-item grid-2">
+                <a class="grid-item grid-2" href="#">
                     <div class="overlay"></div>
                     <div class="overlaynav">
                         <h4>Lorem Ipsum</h4>
@@ -38,7 +38,7 @@
                         </p>
                     </div>
                 </a> 
-                <a class="grid-item grid-3">
+                <a class="grid-item grid-3" href="#">
                     <div class="overlay"></div>
                     <div class="overlaynav">
                         <h4>Lorem Ipsum</h4>
@@ -50,7 +50,7 @@
                         </p>
                     </div>
                 </a> 
-                <a class="grid-item grid-5">
+                <a class="grid-item grid-5" href="#">
                     <div class="overlay"></div>
                     <div class="overlaynav">
                         <h4>Lorem Ipsum</h4>
@@ -62,7 +62,7 @@
                         </p>
                     </div>
                 </a> 
-                <a class="grid-item grid-6">
+                <a class="grid-item grid-6" href="#">
                     <div class="overlay"></div>
                     <div class="overlaynav">
                         <h4>Lorem Ipsum</h4>
@@ -74,7 +74,7 @@
                         </p>
                     </div>
                 </a> 
-                <a class="grid-item grid-7">
+                <a class="grid-item grid-7" href="#">
                     <div class="overlay"></div>
                     <div class="overlaynav">
                         <h4>Lorem Ipsum</h4>

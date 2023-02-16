@@ -26,7 +26,7 @@
                     <div class="row">
                         <div class="offset-xl-2 offset-lg-0 col-xl-10 col-lg-12">
                             <div class="p-5 text-center">
-                                <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/aboutus.jpg"/>
+                                <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/pageabout/aboutus.jpg"/>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-12 col-lg-5 offset-lg-1 p-0">
                     <div class="">
-                        <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/landside-transportation.jpg"/>
+                        <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/home/landside-transportation.jpg"/>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="vision-left col-md-12 col-lg-6">
-                    <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/landside-transportation.jpg"/>
+                    <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/pageabout/mission&vision.jpg"/>
                 </div>
                 <div class="vision-right col-md-12 col-lg-6">
                     <div class="text-block text-center p-lg-5 p-3">
@@ -102,7 +102,7 @@
             <h2>Why Choose Us</h2>
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/landside-transportation.jpg"/>
+                    <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/home/ocean-transport.jpg"/>
                     <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -111,7 +111,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/landside-transportation.jpg"/>
+                    <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/home/air-freight-services.webp"/>
                     <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -120,7 +120,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/landside-transportation.jpg"/>
+                    <img class="img-fluid" src="{{rtrim($config["app_url"], '/')}}/img/home/landside-transportation.jpg"/>
                     <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.

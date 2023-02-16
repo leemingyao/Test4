@@ -29,8 +29,8 @@
                 <div class="d-flex justify-content-center align-items-center col-12 col-md-5">
                     <div class="img-container">
                         <img class="img-fluid" src="../img/pageservice/LCL1.jpg"/>
-                        <img class="img-fluid" src="../img/pageservice/LCL1.jpg"/>
-                        <img class="img-fluid" src="../img/pageservice/LCL1.jpg"/>
+                        <img class="img-fluid" src="../img/pageservice/lcl2.jpg"/>
+                        <img class="img-fluid" src="../img/pageservice/lcl3.jpg"/>
                     </div>
                 </div>
             </div>
@@ -39,8 +39,8 @@
                 <div class="d-flex justify-content-center align-items-center col-12 col-md-5">
                     <div class="img-container">
                         <img class="img-fluid" src="../img/pageservice/container1.jpg"/>
-                        <img class="img-fluid" src="../img/pageservice/container1.jpg"/>
-                        <img class="img-fluid" src="../img/pageservice/container1.jpg"/>
+                        <img class="img-fluid" src="../img/pageservice/container2.jpg"/>
+                        <img class="img-fluid" src="../img/pageservice/container3.jpg"/>
                     </div>
                 </div>
                 <div class="text-container col-12 col-md-7">
@@ -135,9 +135,9 @@
                 </div>
                 <div class="d-flex justify-content-center align-items-center col-12 col-md-5 py-4 py-md-0">
                     <div class="img-container">
+                        <img class="img-fluid" src="../img/pageservice/aircargo1.jpg"/>
                         <img class="img-fluid" src="../img/pageservice/aircargo2.jpg"/>
-                        <img class="img-fluid" src="../img/pageservice/aircargo2.jpg"/>
-                        <img class="img-fluid" src="../img/pageservice/aircargo2.jpg"/>
+                        <img class="img-fluid" src="../img/pageservice/aircargo3.jpg"/>
                     </div>
                 </div>
             </div>
@@ -213,9 +213,9 @@
                 </div>
                 <div class="d-flex justify-content-center align-items-center col-12 col-md-6">
                     <div class="img-container">
-                        <img class="img-fluid" src="../img/pageservice/40fttruck.jpg"/>
-                        <img class="img-fluid" src="../img/pageservice/40fttruck.jpg"/>
-                        <img class="img-fluid" src="../img/pageservice/40fttruck.jpg"/>
+                        <img class="img-fluid" src="../img/pageservice/8t.jpg"/>
+                        <img class="img-fluid" src="../img/pageservice/40ft.jpg"/>
+                        <img class="img-fluid" src="../img/pageservice/30ft.jpg"/>
                     </div>
                 </div>
             </div>

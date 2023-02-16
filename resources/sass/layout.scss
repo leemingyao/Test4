@@ -213,6 +213,9 @@ $sectiongap:60px;
         a{
             text-decoration: none;
         }
+        a:hover{
+            font-weight: bold;
+        }
         h5{
             margin-bottom: 1rem;
         }
@@ -230,21 +233,6 @@ $sectiongap:60px;
             width:25%;
         }
     }
-    .footer__socialmedia{
-    }
-    
-    .footer__socialmedia__list {
-    }
-
-    a.footer__socialmedia__link,
-    a.footer__socialmedia__link:link,
-    a.footer__socialmedia__link:visited {
-    }
-
-    a.footer__socialmedia__link:focus,
-    a.footer__socialmedia__link:hover,
-    a.footer__socialmedia__link:active {
-    }
 
     .quicklink-list{
         text-decoration: none;
@@ -256,8 +244,12 @@ $sectiongap:60px;
             line-height: 40px;
         }        
         a {
-        color:$primary;
-            
+            color:$primary;
+        }
+
+        a:hover{
+            font-weight: bold;
+            margin-top: -1px;
         }
     }
 
@@ -381,31 +373,13 @@ $sectiongap:60px;
     }
 }
 
-// ============= END Page ================
-
-body.scrolled,
-body.scrolled-up {
-    // #header {
-    //     background:rgba(#fff, .9);
-        
-    //     .header-nav{
-    //         .nav-one > li > a{    
-    //             color:#000;
-    //         }
-    //     }
-    // }
-    // #header:hover{
-    //     background:rgba(#fff, 1);
-    // }
-}
-
 // ========== subpage banner ===========
 .subpage-banner .subpage-banner-item{
     width: 100%;
     height: calc(300px + 70px);
     margin: auto;
     position: relative;
-    background:linear-gradient(rgba(255,255,255,0.5) , rgba(255,255,255,0.5)),url(/../public/img/subbanner-aboutus.jpg);
+    background:linear-gradient(rgba(255,255,255,0.5) , rgba(255,255,255,0.5)),url(/../public/img/subbanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0;
@@ -460,7 +434,7 @@ body.scrolled-up {
     background-color:$light;
     height:500px;
     .img-container{
-        background-image: url(../../public/img/aboutus.jpg);
+        background-image: url(../../public/img/pageabout/aboutus.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -478,7 +452,7 @@ body.scrolled-up {
 .section-services{
     padding-top: $sectiongap;
     padding-bottom: $sectiongap;
-    background-image: url(../../public/img/logistics-company-malaysia.jpg);
+    background-image: url(../../public/img/home/logistics-company-malaysia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -508,52 +482,93 @@ body.scrolled-up {
             @media (max-width: 575.98px) { 
                 width:90%;
             }
-            .overlay{
-                width:100%;
-                height:100%;
-                background-color:black;
-                opacity:0.3;
-                position:absolute;
-                left:0;
+            .overlaytop{
+                position: absolute;
+                bottom: 100%;
+                left: 0;
+                right: 0;
+                background-color: black;
+                opacity: 0.4;
+                overflow: hidden;
+                width: 100%;
+                height:0;
+                transition: .5s ease;
+            }
+
+            .overlaybottom{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: black;
+                opacity: 0.4;
+                overflow: hidden;
+                width: 100%;
+                height: 0;
+                transition: .5s ease;
+            }
+
+            .textcontainer {
+                color: white;
+                padding: 5px;
+                font-size: 20px;
+                position: absolute;
+                overflow: hidden;
+                display: none;
+                text-align: center;
+                justify-content:center;
+                align-items:center;
                 top: 0;
+                left: 0;
+                right: 0;
+                height:0;
+                h5{
+                    color:lightyellow;
+                    font-weight:900;
+                }
+            }
+        }
+
+        .service-type:hover{
+            transition: margin 0.2s ease-in-out;
+            margin-top: -2px !important;
+            box-shadow: 0 0 30px lighten(#000, 60%);
+             .overlaybottom {
+                height: 50%;
+            }
+            .overlaytop {
+                bottom: 50%;
+                height: 50%;
+            }
+            .textcontainer {
+                display: flex;
+                height:100%;
             }
         }
 
         .service1{
-            background: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.0)),url(../../public/img/ocean-transport.jpg);
+            background-image:url(../../public/img/home/ocean-transport.jpg);
             background-position: 65%;
             background-repeat: no-repeat;
             background-size: cover;
         }
         .service2{
-            background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../public/img/air-freight-services.webp);
+            background-image:url(../../public/img/home/air-freight-services.webp);
             background-position: 65%;
             background-repeat: no-repeat;
             background-size: cover;
         }
         .service3{
-            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../../public/img/landside-transportation.jpg);
+            background-image:url(../../public/img/home/landside-transportation.jpg);
             background-position: 87%;
             background-repeat: no-repeat;
             background-size: cover;
         }
         .service4{
-            background: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.0)),url(../../public/img/logistics-company-malaysia.jpg);
+            background-image:url(../../public/img/home/logistics-company-malaysia.jpg);
             background-position: 84%;
             background-repeat: no-repeat;
             background-size: cover;
-        }
-
-        .textcontainer{
-            display: flex;
-            align-items: center;
-            text-align:center;
-            position: relative;
-            h5{
-                color:lightyellow;
-                font-weight:900;
-            }
-            
         }
     }
 }
@@ -690,6 +705,9 @@ body.scrolled-up {
         justify-content: flex-end;
     }
 
+    a:hover{
+        margin-top: -2px;
+    }
 
     .btn{
         font-size: 15px;
@@ -1016,22 +1034,6 @@ body.scrolled-up {
             }
         }
     }
-
-    //     a:hover{
-    //          transition: margin 0.2s ease-in-out;
-    //          margin: -2px;
-    //          .overlaybottom {
-    //             height: 50%;
-    //         }
-    //         .overlaytop {
-    //             bottom: 50%;
-    //             height: 50%;
-    //         }
-    //         .text {
-    //             height:100%;
-    //             transition-delay: .3s;
-    //         }
-    //     }
       
       .grid-item {
         padding: 20px;
@@ -1070,36 +1072,6 @@ body.scrolled-up {
             }
         }
 
-    //     .overlaybottom{
-    //         position: absolute;
-    //         bottom: 0;
-    //         left: 0;
-    //         right: 0;
-    //         opacity:0.4;
-    //         background-color: black;
-    //         overflow: hidden;
-    //         width: 100%;
-    //         height: 0;
-    //         transition: .3s ease;
-    //     }
-
-    //     .text {
-    //         color: white;
-    //         font-size: 20px;
-    //         position: absolute;
-    //         overflow: hidden;
-    //         text-align: center;
-    //         position: absolute;
-    //         display: flex;
-    //         justify-content:center;
-    //         align-items:center;
-    //         top: 0;
-    //         left: 0;
-    //         right: 0;
-    //         height:0;
-            
-    //       }
-
         
 
       .grid-1{
@@ -1107,7 +1079,7 @@ body.scrolled-up {
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 9;
-        background-image: url("/../public/img/aboutus.jpg");
+        background-image: url("/../public/img/pagenews/newslist/news1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1118,7 +1090,7 @@ body.scrolled-up {
         grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 5;
-        background-image: url("/../public/img/aboutus.jpg");
+        background-image: url("/../public/img/pagenews/newslist/news2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1129,7 +1101,7 @@ body.scrolled-up {
         grid-column-end: 6;
         grid-row-start: 5;
         grid-row-end: 9;
-        background-image: url("/../public/img/aboutus.jpg");
+        background-image: url("/../public/img/pagenews/newslist/news3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1140,7 +1112,7 @@ body.scrolled-up {
         grid-column-end: 3;
         grid-row-start: 9;
         grid-row-end: 12;
-        background-image: url("/../public/img/aboutus.jpg");
+        background-image: url("/../public/img/pagenews/newslist/news4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1151,7 +1123,7 @@ body.scrolled-up {
         grid-column-end: 5;
         grid-row-start: 9;
         grid-row-end: 12;
-        background-image: url("/../public/img/aboutus.jpg");
+        background-image: url("/../public/img/pagenews/newslist/news5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1162,30 +1134,11 @@ body.scrolled-up {
         grid-column-end: 6;
         grid-row-start: 9;
         grid-row-end: 12;
-        background-image: url("/../public/img/aboutus.jpg");
+        background-image: url("/../public/img/pagenews/newslist/news6.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
       }
-
-      
-
-    // .grid-item { 
-    //     width: 200px; 
-    //     background-color: #e04f62;
-    //     border: 1px solid black;
-    //     border-radius: 10px;
-    // }
-    // .grid-item--width2 { 
-    //     width: 400px;
-    // }
-    // .grid-container {
-    //     display: grid;
-    //     background-color:#e04f62;
-    //     grid-template-columns: repeat(3, 1fr);
-    //     grid-auto-rows: 100px;
-    //   }
-
 }
 
 

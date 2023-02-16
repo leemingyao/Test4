@@ -24,7 +24,7 @@
             </ul>
         </div>
         <div class="header-phone">
-            <a class="btn btn-primary text white badge-pill" href="tel:{!!$config["contact"]["fax"]!!}">
+            <a class="btn btn-primary text white badge-pill" href="tel:{!!$config["contact"]["office"]!!}">
                 <i class="fas fa-phone-alt"></i>
                 <span class="d-md-inline-block d-none pl-1">Call Us</span>
             </a>
