@@ -1190,12 +1190,13 @@ body.scrolled-up {
 
 
 // ======== Contact uS =========
-iframe{
-    margin-top: $header-height;
-}
 .page-contact{
-    margin-top: $gap;
-    margin-bottom: $gap;
+    padding-top: $sectiongap;
+    padding-bottom: $sectiongap;
+    background-color:white;
+    h1,h2,h3,p, form{
+        color: $primary;
+    }
     
 }
 
@@ -1208,10 +1209,14 @@ iframe{
 .contact-list .contact-item {
     display: flex;
     margin-bottom:10px;
+    i{
+        color: $primary;
+    }
 }
 
 .contact-list .contact-item a{
-    color:$dark;
+    color:$primary;
+    text-decoration: none;
 }
 
 .contact-list .contact-item i {
@@ -1220,7 +1225,6 @@ iframe{
     display:flex;
     align-items:center;
     justify-content:center;
-    color:$dark;
 }
 .contact-list .contact-item span{
     padding-top:2px;
@@ -1240,12 +1244,6 @@ iframe{
 .btn-send-loading .spinner{
     display:block;
 }
-
-//====== service detail ======
-.page-servicedetail{
-    margin-top: $gap;
-}
-
 
 //======= keyframes =========
 @keyframes slideIn{
