@@ -23,7 +23,7 @@ return [
         'type' => 'Website',
         'url' => '//propestsolution.com',
         'image' => '/img/logo-og.png',
-        'site_name' => 'PROPEST SOLUTION',
+        'site_name' => 'STAR PACIFIC LINES',
     ],
     'mail' => [
         'from' => 'noreply@propestsolution.com',

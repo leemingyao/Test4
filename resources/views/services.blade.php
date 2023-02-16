@@ -229,7 +229,7 @@
                     <h3>Share Us Your Requirements & Ask For The Best Quote From Our Sales Team Now! <i class="fa-solid fa-heart"></i></h3> 
                 </div>
                 <div class="col-12">
-                    <a class="btn btn-primary btn-lg mx-1" href="tel:<?php echo str_replace(" ","", $config["contact"]["office"]) ?>">
+                    <a class="btn btn-primary btn-lg mx-1" href="mailto:<?php echo str_replace(" ","", $config["contact"]["email"]) ?>">
                         <i class="fa-solid fa-envelope"></i> Email Us
                     </a>
                     <a class="btn btn-primary btn-lg mx-1" href="tel:<?php echo str_replace(" ","", $config["contact"]["office"]) ?>">

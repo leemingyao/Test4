@@ -19,7 +19,7 @@
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/home" data-page="home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/aboutus" data-page="aboutus">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/services" data-page="our-services">Our Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/news" data-page="news">News & Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/news" data-page="news">Global News</a></li>
                 <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/contactus" data-page="contact-us">Contact Us</a></li>
             </ul>
         </div>
@@ -40,7 +40,7 @@
             <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/home" data-page="home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/aboutus" data-page="about-us">About Us</a></li>
             <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/services" data-page="our-services">Our Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/news" data-page="news">News & Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/news" data-page="news">Global News</a></li>
             <li class="nav-item"><a class="nav-link" href="{!! rtrim($config["app_url"], '/')!!}/contactus" data-page="contact-us">Contact Us</a></li>
         </ul>
         <div class="header-contact">
@@ -53,8 +53,8 @@
             </div>
             <div class="header-contact-item contact-mobile">
                 <i class="fas fa-phone-alt"> </i>
-                <a href="tel:<?php echo str_replace(" ","", $config["contact"]["fax"]) ?>">
-                    <?php echo ": " . $config["contact"]["fax"] ?>
+                <a href="tel:<?php echo str_replace(" ","", $config["contact"]["office"]) ?>">
+                    <?php echo ": " . $config["contact"]["office"] ?>
                 </a>
             </div>
             <div class="header-contact-item contact-email">
@@ -64,12 +64,5 @@
                 </a>
             </div>
         </div>
-        <!-- <div class="header-socialmedia">
-            <div class="socialmedia-item logo-fb">
-                <a href="<?php echo $config["social"]["facebook"] ?>">
-                    <img src="<?php echo $config["app_url"] ?>/img/social/facebook.png" class="img-fluid bg-light rounded-circle" alt="Welcome to our Facebook"/>
-                </a>
-            </div>
-        </div> -->
     </div>
 </header>

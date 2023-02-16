@@ -30,7 +30,7 @@
                                 <li class="col-6 col-sm-12"><a href='/'>Home</a></li>
                                 <li class="col-6 col-sm-12"><a href='/aboutus'>About Us</a></li>
                                 <li class="col-6 col-sm-12"><a href='/services'>Our Services</a></li>
-                                <li class="col-6 col-sm-12"><a href='/news'>News & Gallery</a></li>
+                                <li class="col-6 col-sm-12"><a href='/news'>Global News</a></li>
                                 <li class="col-6 col-sm-12"><a href='/contactus '>Contact Us</a></li>
                             </div>
                         </ul>
@@ -49,10 +49,10 @@
                             </li>
                             <li class="contact__item text-primary">
                                 <i class="material-icons">phone</i>
-                                <a href="tel:{!!$config["contact"]["fax"]!!}">{!!$config["contact"]["fax"]!!}</a>                                
+                                <a href="tel:{!!$config["contact"]["fax"]!!}">{!!$config["contact"]["office"]!!}</a>                                
                             </li>
                             <li class="contact__item text-primary">
-                                <i class="material-icons">home_work</i>
+                                <i class="fa-solid fa-fax"></i>
                                 <a href="tel:{!!$config["contact"]["fax"]!!}">{!!$config["contact"]["fax"]!!}</a>
                             </li>                            
                             <li class="contact__item text-primary">
@@ -62,8 +62,7 @@
                             <li class="contact__item text-primary">
                                 <i class="material-icons">access_time</i>
                                 <p>
-                                    Monday to Friday - 8.30am - 6.00pm<br>
-                                    Saturday - 8.30am - 6.00pm
+                                    Monday to Friday - 9.00am - 6.00pm
                                 </p>
                             </li> 
                         </ul>
